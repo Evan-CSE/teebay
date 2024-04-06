@@ -68,7 +68,7 @@ export default function Login() {
                         LOGIN
                     </button>
                     <p>
-                        Don't have an account? <Link to = {'/'}>Signup</Link>
+                        Don't have an account? <Link to = {'/register'}>Signup</Link>
                     </p>
                 </form>
             )}

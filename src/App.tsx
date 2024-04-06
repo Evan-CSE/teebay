@@ -2,6 +2,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './HomeComponent/Home'
 import Login from './Login/Login'
 import Registration from './Registration/Registration'
+import './App.css'
 
 function App() {
   const routes = createBrowserRouter([
