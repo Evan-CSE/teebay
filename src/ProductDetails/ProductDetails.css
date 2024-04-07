@@ -1,0 +1,32 @@
+.product-container {
+    display: flex;
+    justify-content: center;
+
+    .product-details {
+        padding: 70px;
+
+        .button-container {
+            display        : flex;
+            justify-content: flex-end;
+            margin-top: 100px;
+            margin-left: 50px;
+
+            button {
+                padding         : 10px 14px;
+                margin-right    : 10px;
+                background-color: var(--primary);
+                color           : white;
+                outline-color   : white;
+                border          : 3px solid white;
+            }
+        }
+
+        p {
+            align-self: flex-start;
+        }
+
+        .category-price {
+            color: gray;
+        }
+    }
+}
