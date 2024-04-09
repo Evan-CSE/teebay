@@ -6,6 +6,7 @@ import ProductDetails from './Page/ProductDetails/ProductDetails'
 import Login from './Page/Login/Login'
 import Registration from './Page/Registration/Registration'
 import MyProducts from './Page/MyProducts/MyProducts'
+import EditProduct from './Page/EditProduct/EditProduct'
 
 function App() {
   const routes = createBrowserRouter([
@@ -32,6 +33,10 @@ function App() {
     {
       path: '/my-products',
       element: <MyProducts/>
+    },
+    {
+      path: '/edit/:pvId',
+      element: <EditProduct/>
     }
   ])
 

@@ -3,5 +3,6 @@ export type Product = {
     name       : string,
     price      : number,
     description: string,
-    categories : string
+    categories : string,
+    rent       : number
 }
