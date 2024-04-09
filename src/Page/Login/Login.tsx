@@ -2,7 +2,7 @@ import React from 'react';
 import { Formik } from 'formik';
 import './Login.css'
 import { Link } from 'react-router-dom';
-import isValidMail from '../CommonHelper/Validator';
+import isValidMail from '../../CommonHelper/Validator';
 
 export default function Login() {
   return (

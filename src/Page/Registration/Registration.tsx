@@ -1,8 +1,8 @@
 import React from 'react';
 import { Formik } from 'formik';
 import { Link } from 'react-router-dom';
-import isValidMail from '../CommonHelper/Validator';
 import './Registration.css'
+import isValidMail from '../../CommonHelper/Validator';
 
 export default function Registration() {
   return (
