@@ -4,6 +4,49 @@
   --primary: rgb(114, 28, 194);
 }
 
+.d-flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.mt-s {
+  margin-top: 5px;
+}
+
+.p-1 {
+  padding: 10px;
+}
+
+.px-1 {
+  padding: 0px 10px;
+}
+
+.py-1 {
+  padding: 10px 0px;
+}
+.mt-3 {
+  margin-top: 30px;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
 .reg-form {
   border-radius: 5px;
   border: var(--form-border);

@@ -1,16 +1,17 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import Home from './HomeComponent/Home'
-import Login from './Login/Login'
-import Registration from './Registration/Registration'
 import './App.css'
-import AllProduct from './AllProduct/AllProduct'
-import ProductDetails from './ProductDetails/ProductDetails'
+import AllProduct from './Page/AllProduct/AllProduct'
+import Navbar from './Components/Navbar/Navbar'
+import ProductDetails from './Page/ProductDetails/ProductDetails'
+import Login from './Page/Login/Login'
+import Registration from './Page/Registration/Registration'
+import MyProducts from './Page/MyProducts/MyProducts'
 
 function App() {
   const routes = createBrowserRouter([
     {
       path: '/',
-      element: <Home/>
+      element: <Navbar/>
     },
     {
       path: '/login',
@@ -27,11 +28,15 @@ function App() {
     {
       path: `/product/:pvId`,
       element: <ProductDetails/>
+    },
+    {
+      path: '/my-products',
+      element: <MyProducts/>
     }
   ])
 
   return (
-      <RouterProvider router = {routes}/>
+    <RouterProvider router = {routes}/>
   )
 }
 
